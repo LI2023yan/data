@@ -6,7 +6,7 @@ import plotly.express as px
 
 app = dash.Dash(__name__)
 
-data_url = "https://raw.githubusercontent.com/iffaxoo/datacsv/main/Top%2050%20Animation%20Movies%20and%20TV%20Shows.csv"
+data_url = "https://raw.githubusercontent.com/LI2023yan/data/main/Top%2050%20Animation%20Movies%20and%20TV%20Shows.csv"
 df = pd.read_csv(data_url)
 
 server = app.server
